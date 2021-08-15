@@ -1,6 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import './tailwind.output.css';
 import { Route, Switch, BrowserRouter as Router, Redirect } from 'react-router-dom'
 import { StudyLoginScreen } from './pages/study-login';
