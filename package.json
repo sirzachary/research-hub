@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "Zachary Ng <zacharyngweiyao@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "lint": "lerna run --no-bail lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "lerna": "^4.0.0"
   }
